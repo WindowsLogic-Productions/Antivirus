@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Seren Antivirus Plus 2012">
+</Property><Property Name="Solution File" Value="C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012.sln">
+</Property><Property Name="Date" Value="20 January 2017">
+</Property><Property Name="Time" Value="03:31">
+</Property></Properties><Event ErrorLevel="0" Project="Seren Antivirus Plus 2012" Source="Seren Antivirus Plus 2012\Seren Antivirus Plus 2012.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Seren Antivirus Plus 2012" Source="Seren Antivirus Plus 2012\Seren Antivirus Plus 2012.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Seren Antivirus Plus 2012.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Seren Antivirus Plus 2012.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Seren Antivirus Plus 2012" Source="Seren Antivirus Plus 2012\Seren Antivirus Plus 2012.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,21 @@
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren_Antivirus_Plus_2012.Form1.resources
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren_Antivirus_Plus_2012.Form2.resources
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren_Antivirus_Plus_2012.Resources.resources
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren Antivirus Plus 2012.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\bin\Debug\Seren Antivirus Plus 2012.exe
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\bin\Debug\Seren Antivirus Plus 2012.pdb
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\bin\Debug\Seren Antivirus Plus 2012.xml
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren Antivirus Plus 2012.exe
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren Antivirus Plus 2012.xml
+C:\Documents and Settings\Hrishi Patel\My Documents\Visual Studio 2008\Projects\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren Antivirus Plus 2012.pdb
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren Antivirus Plus 2012.xml
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren Antivirus Plus 2012.pdb
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\bin\Debug\Seren Antivirus Plus 2012.exe
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\bin\Debug\Seren Antivirus Plus 2012.pdb
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\bin\Debug\Seren Antivirus Plus 2012.xml
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren_Antivirus_Plus_2012.Form1.resources
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren_Antivirus_Plus_2012.Form2.resources
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren_Antivirus_Plus_2012.Resources.resources
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren Antivirus Plus 2012.vbproj.GenerateResource.Cache
+C:\Users\logiv\Desktop\Seren Antivirus Plus 2012\Seren Antivirus Plus 2012\obj\Debug\Seren Antivirus Plus 2012.exe
