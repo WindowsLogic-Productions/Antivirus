@@ -24,8 +24,6 @@ Partial Class Main
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button9 = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.FileSystemWatcher1 = New System.IO.FileSystemWatcher()
@@ -82,7 +80,6 @@ Partial Class Main
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
-        Me.Panel1.SuspendLayout()
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -94,25 +91,6 @@ Partial Class Main
         Me.TabPage4.SuspendLayout()
         Me.TabPage5.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Panel1
-        '
-        Me.Panel1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar
-        Me.Panel1.BackColor = System.Drawing.Color.Green
-        Me.Panel1.Controls.Add(Me.Button9)
-        Me.Panel1.Location = New System.Drawing.Point(1, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(625, 23)
-        Me.Panel1.TabIndex = 0
-        '
-        'Button9
-        '
-        Me.Button9.Location = New System.Drawing.Point(590, 0)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(35, 23)
-        Me.Button9.TabIndex = 0
-        Me.Button9.Text = "X"
-        Me.Button9.UseVisualStyleBackColor = True
         '
         'OpenFileDialog1
         '
@@ -142,7 +120,7 @@ Partial Class Main
         Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Controls.Add(Me.TabPage5)
-        Me.TabControl1.Location = New System.Drawing.Point(1, 119)
+        Me.TabControl1.Location = New System.Drawing.Point(1, 121)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(625, 238)
@@ -151,7 +129,6 @@ Partial Class Main
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.TabPage1.Controls.Add(Me.PictureBox1)
         Me.TabPage1.Controls.Add(Me.ListBox1)
         Me.TabPage1.Controls.Add(Me.GroupBox1)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
@@ -164,23 +141,25 @@ Partial Class Main
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(34, 13)
+        Me.PictureBox1.Image = Global.Seren_Antivirus_Plus_2012.My.Resources.Resources.Updates_On
+        Me.PictureBox1.Location = New System.Drawing.Point(18, 48)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(131, 127)
+        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(200, 6)
+        Me.ListBox1.Location = New System.Drawing.Point(410, 58)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(411, 199)
+        Me.ListBox1.Size = New System.Drawing.Size(201, 147)
         Me.ListBox1.TabIndex = 3
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Button2)
         Me.GroupBox1.Location = New System.Drawing.Point(7, 146)
@@ -229,7 +208,7 @@ Partial Class Main
         '
         'TextBox1
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Highlight
+        Me.TextBox1.BackColor = System.Drawing.Color.White
         Me.TextBox1.Location = New System.Drawing.Point(10, 124)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
@@ -247,6 +226,7 @@ Partial Class Main
         'files
         '
         Me.files.AutoSize = True
+        Me.files.BackColor = System.Drawing.Color.Transparent
         Me.files.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.files.Location = New System.Drawing.Point(205, 41)
         Me.files.Name = "files"
@@ -257,6 +237,7 @@ Partial Class Main
         'detected
         '
         Me.detected.AutoSize = True
+        Me.detected.BackColor = System.Drawing.Color.Transparent
         Me.detected.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.detected.Location = New System.Drawing.Point(205, 72)
         Me.detected.Name = "detected"
@@ -267,6 +248,7 @@ Partial Class Main
         'total
         '
         Me.total.AutoSize = True
+        Me.total.BackColor = System.Drawing.Color.Transparent
         Me.total.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.total.Location = New System.Drawing.Point(205, 12)
         Me.total.Name = "total"
@@ -277,6 +259,7 @@ Partial Class Main
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(7, 72)
         Me.Label4.Name = "Label4"
@@ -287,6 +270,7 @@ Partial Class Main
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(7, 41)
         Me.Label3.Name = "Label3"
@@ -297,6 +281,7 @@ Partial Class Main
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(7, 13)
         Me.Label2.Name = "Label2"
@@ -322,6 +307,7 @@ Partial Class Main
         'labellastreal
         '
         Me.labellastreal.AutoSize = True
+        Me.labellastreal.BackColor = System.Drawing.Color.Transparent
         Me.labellastreal.Location = New System.Drawing.Point(121, 188)
         Me.labellastreal.Name = "labellastreal"
         Me.labellastreal.Size = New System.Drawing.Size(120, 13)
@@ -331,6 +317,7 @@ Partial Class Main
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Location = New System.Drawing.Point(14, 188)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(98, 13)
@@ -340,6 +327,7 @@ Partial Class Main
         'realtime
         '
         Me.realtime.AutoSize = True
+        Me.realtime.BackColor = System.Drawing.Color.Transparent
         Me.realtime.Location = New System.Drawing.Point(14, 97)
         Me.realtime.Name = "realtime"
         Me.realtime.Size = New System.Drawing.Size(93, 13)
@@ -356,6 +344,7 @@ Partial Class Main
         '
         'GroupBox2
         '
+        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox2.Controls.Add(Me.Button6)
         Me.GroupBox2.Controls.Add(Me.Button5)
         Me.GroupBox2.Location = New System.Drawing.Point(7, 8)
@@ -378,7 +367,7 @@ Partial Class Main
         '
         Me.Button5.Location = New System.Drawing.Point(20, 29)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(47, 23)
+        Me.Button5.Size = New System.Drawing.Size(36, 23)
         Me.Button5.TabIndex = 0
         Me.Button5.Text = "On "
         Me.Button5.UseVisualStyleBackColor = True
@@ -615,11 +604,11 @@ Partial Class Main
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Tahoma", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.SpringGreen
-        Me.Label6.Location = New System.Drawing.Point(13, 47)
+        Me.Label6.Location = New System.Drawing.Point(56, 48)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(230, 33)
+        Me.Label6.Size = New System.Drawing.Size(195, 33)
         Me.Label6.TabIndex = 6
-        Me.Label6.Text = "Seren Antivirus "
+        Me.Label6.Text = "WLP Security"
         '
         'NotifyIcon1
         '
@@ -627,24 +616,23 @@ Partial Class Main
         Me.NotifyIcon1.Text = "NotifyIcon1"
         Me.NotifyIcon1.Visible = True
         '
-        'Form1
+        'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(627, 359)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.TabControl1)
-        Me.Controls.Add(Me.Panel1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Seren Antivirus Plus 2012"
-        Me.Panel1.ResumeLayout(False)
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
@@ -662,7 +650,6 @@ Partial Class Main
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents FolderBrowserDialog1 As System.Windows.Forms.FolderBrowserDialog
     Friend WithEvents FileSystemWatcher1 As System.IO.FileSystemWatcher
@@ -702,7 +689,6 @@ Partial Class Main
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
     Friend WithEvents TabPage5 As System.Windows.Forms.TabPage
     Friend WithEvents btn_cancel As System.Windows.Forms.Button

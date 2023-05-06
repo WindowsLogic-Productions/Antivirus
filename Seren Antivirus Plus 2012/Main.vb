@@ -40,8 +40,8 @@ Public Class Main
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        FolderBrowserDialog1.SelectedPath = ("C:/")
-        FolderBrowserDialog2.SelectedPath = ("D:/")
+        FolderBrowserDialog1.SelectedPath = ("C:\")
+        FolderBrowserDialog2.SelectedPath = ("D:\")
         Try
             For Each strDir As String In System.IO.Directory.GetDirectories(FolderBrowserDialog1.SelectedPath)
 
@@ -272,7 +272,7 @@ Public Class Main
         realtime.Text = "Real-time Disabled"
     End Sub
 
-    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
+    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         End
     End Sub
 
